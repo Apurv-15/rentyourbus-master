@@ -12,7 +12,7 @@ export default function about() {
               variant="h2"
               align="center"
               color="textPrimary"
-              style={{ color: "white" }}
+              style={{ color: "black" }}
               gutterBottom
             >
               About Us
@@ -21,7 +21,7 @@ export default function about() {
               variant="h6"
               align="center"
               color="textSecondary"
-              style={{ color: "white" }}
+              style={{ color: "black" }}
               paragraph
             >
               Welcome to our bus rental app! We provide a convenient platform
