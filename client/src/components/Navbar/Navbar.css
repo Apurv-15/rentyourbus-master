@@ -1,0 +1,18 @@
+.menu-icon {
+  color: white;
+}
+
+.navbar {
+  padding: 20px 60px;
+  background-color: white;
+}
+
+.nav-item:hover {
+  /* content: "";
+  width: 3%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  bottom: 0.8em; */
+  border-bottom: 2px solid white;
+}

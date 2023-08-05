@@ -1,0 +1,77 @@
+.dob-1 {
+  color: white;
+}
+/* BusType.css */
+.proceed-button-center {
+  text-align: center;
+
+}
+
+/* Add a media query for smaller screens (adjust the max-width as needed) */
+@media (max-width: 600px) {
+  .proceed-button-center {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
+}
+
+.Bus-type-m1 {
+  width: 60%;
+  /* border: 3px solid green; */
+}
+
+.Bus-type-m2 {
+  background-repeat: no-repeat;
+  width: 40%;
+  align-content: left;
+  margin: auto;
+  /* border: 3px solid green; */
+}
+
+.Bus-type-m2 img {
+  max-width: 100%;
+}
+.Bus-type-m3 {
+  display: flex;
+  justify-content: center;
+}
+
+.big-peu {
+  display: flex;
+  min-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .left-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+.center-items {
+  display: flex;
+  justify-content: left;
+}
